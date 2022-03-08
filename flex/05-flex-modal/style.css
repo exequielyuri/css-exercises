@@ -91,13 +91,9 @@ button.cancel {
   justify-content: space-between;
 }
 
-.container {
-  /* fix: downward */
-  display: flex;
-  flex-direction: column;
-
-  /* space bet: title, text, buttons */
-  gap: 10px;
+/* spacing between */
+.header , .text {
+  margin-bottom: 8px;
 }
 
 .icon, .close-button {
