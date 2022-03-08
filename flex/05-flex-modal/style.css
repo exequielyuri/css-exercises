@@ -64,3 +64,42 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/*
+  MODIFICATIONS
+*/
+.modal {
+  /* 
+    equal space on icon side +
+    padding around edge of modal  
+  */
+  padding: 15px;
+  gap: 15px;
+
+  /* header, text, buttons aligned */
+  display: flex;
+}
+
+.header {
+  /* header: bold, larger */
+  font-weight: bold;
+  font-size: 18px;
+
+  /* close button: aligned, top-right */
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  /* fix: downward */
+  display: flex;
+  flex-direction: column;
+
+  /* space bet: title, text, buttons */
+  gap: 10px;
+}
+
+.icon, .close-button {
+  flex: 0 0 auto;
+}
