@@ -10,6 +10,26 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* 32px bet. title & items */
+  margin-bottom: 32px;
+}
+
+.item {
+  /* items are only 200px wide and text wraps */
+  max-width: 200px;
+}
+
+.content {
+  /* items are horizontal & centered*/
+  display: flex;
+  justify-content: center;
+  /* 52px between items */
+  gap: 52px;
+}
+
+.title, .item {
+  /* item-text/title centered */
+  text-align: center;
 }
 
 /* do not edit this footer */
